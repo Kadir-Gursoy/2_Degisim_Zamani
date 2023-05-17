@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* width: 40px; */
+}
+
+.header {
+    height: 6em;
+    background-color: rgb(9, 255, 0);
+
+}
+.header_link img{
+    width: 40px;
+    float: left;
+    margin: 10px;
+    margin-top: 20px;
+   
+}
+
+.header_right {
+float: right;
+font-size: 20px;
+text-decoration: none;
+margin-right: 20px;
+margin-top: 35px;
+color: red;
+cursor: pointer;
+text-decoration: none;
+
+
+}
+.header_link:hover {
+    text-decoration: underline;
+    color: white;
+ 
+}
+
+
+.navbar {
+    background-color: #af96a2;
+    text-decoration: rgb(0, 0, 0);
+    position: sticky;
+    text-align: center;
+    padding: 15px;
+    top: 0;
+    z-index: 1;
+
+    }
+    
+.tude button:hover
+
+
+
+.navbar a{
+    font-size: 20px;
+    text-decoration: none;
+    margin left: 10px;
+
+    
+}
+.navbar a:hover{
+    color: white;
+}
+.img{
+    width: 100%;
+}
+.tude {
+    width: 250px;
+    height: 100px;
+    position: absolute;
+    top: 250px;
+    left: 50px;
+}
+
+.tude p {
+    font-size: 25px;
+    color: white;
+    padding-top: 7p;
+
+}
+.tude button{
+padding: 0;
+font-size: 15px;
+border-radius: 7px;
+background-color: rgba(215, 231, 213, 0.703);
+width: 120px;
+height: 35px;
+margin-top:30px;
+cursor: pointer;
+display: flex;
+}
+
+.fa-brands{
+    background-color: rgb(255, 255, 255);
+    height: 35px;
+    width: 35x;
+    border-radius: 110%;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+.fa-brands:hover{
+    background-color: rgb(12, 11, 11);
+    color: greenyellow;
+    border-radius: 50%;
+}
+
+.div konu {
+    width: 50px;
+}
